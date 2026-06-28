@@ -4,11 +4,12 @@
 # for i in range(len(str1)-1, -1, -1):
 #     print(str1)
 
-# #wap to remove all the vowels from string
-# str2 = "This is a python code in VS"
-# vowels = "aeiouAEIOU"
-# str2 = str2.translate(str.maketrans('', '', vowels))
-# print(str2) 
+ #wap to remove all the vowels from string
+str2 = "This is a python code in VS"
+vowels = "aeiouAEIOU"
+str2 = str2.translate(str.maketrans('', '', vowels))
+print(str2) 
+
 
 # #waf to count white spaces in a string
 # str3 = "This is a python code in VS"
